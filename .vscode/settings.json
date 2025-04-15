@@ -9,7 +9,6 @@
 	"typescript.suggest.paths": true,
 	"typescript.suggest.autoImports": true,
 	"editor.renderWhitespace": "all",
-	"editor.rulers": [120, 160],
 	"editor.codeActionsOnSave": {
 		"source.fixAll": "always",
 		"source.organizeImports": "never",

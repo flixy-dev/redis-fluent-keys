@@ -1,7 +1,7 @@
 {
-	"name": "open-source-stack",
+	"name": "@flixy-dev/redis-fluent-keys-monorepo",
 	"version": "1.0.0",
-	"description": "Minimal open-source stack to help you ship an open-source package in TS",
+	"description": "",
 	"scripts": {
 		"build": "pnpm run --filter=\"./packages/**/*\" build",
 		"build:watch": "pnpm build && pnpm run --filter=\"./packages/**/*\" --parallel build --watch",
@@ -18,25 +18,25 @@
 		"local-release": "changeset version && changeset publish",
 		"version": "changeset version"
 	},
-	"author": "forge-42",
+	"author": "Flixy.cz",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/forge-42/open-source-stack.git"
+		"url": "https://github.com/flixy-dev/redis-fluent-keys.git"
 	},
 	"bugs": {
-		"url": "https://github.com/forge-42/open-source-stack/issues"
+		"url": "https://github.com/flixy-dev/redis-fluent-keys/issues"
 	},
-	"homepage": "https://github.com/forge-42/open-source-stack#readme",
+	"homepage": "https://github.com/flixy-dev/redis-fluent-keys#readme",
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
-		"@changesets/cli": "^2.27.7",
-		"@types/node": "^20.12.7",
-		"lefthook": "^1.7.2"
+		"@changesets/cli": "^2.29.0",
+		"@types/node": "^22.14.1",
+		"lefthook": "^1.11.10"
 	},
 	"packageManager": "pnpm@10.6.5",
 	"engines": {
 		"pnpm": ">=10.6.5",
-		"node": ">=20.0.0"
+		"node": ">=22.0.0"
 	}
 }

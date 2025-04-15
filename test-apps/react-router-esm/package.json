@@ -16,7 +16,7 @@
     "isbot": "^4.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "open-source-stack": "workspace:*"
+    "@flixy-dev/redis-fluent-keys": "workspace:*"
   },
   "devDependencies": {
     "@react-router/dev": "^7.1.5",

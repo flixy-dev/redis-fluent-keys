@@ -25,13 +25,15 @@
 			"recommended": true,
 			"suspicious": {
 				"recommended": true,
-				"noConsole": "error"
+				"noConsole": "error",
+				"noExplicitAny": "off"
 			},
 			"style": {
 				"recommended": true
 			},
 			"complexity": {
-				"recommended": true
+				"recommended": true,
+				"noBannedTypes": "off"
 			},
 			"security": {
 				"recommended": true
