@@ -36,13 +36,13 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/forge-42/open-source-stack.git"
+		"url": "git+https://github.com/flixy-dev/redis-fluent-keys.git"
 	},
 	"bugs": {
-		"url": "https://github.com/forge-42/open-source-stack/issues"
+		"url": "https://github.com/flixy-dev/redis-fluent-keys/issues"
 	},
 	"files": ["dist"],
-	"homepage": "https://github.com/forge-42/open-source-stack#readme",
+	"homepage": "https://github.com/flixy-dev/redis-fluent-keys#readme",
 	"publishConfig": {
 		"provenance": true
 	},
